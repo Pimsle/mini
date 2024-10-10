@@ -154,7 +154,7 @@
 
     <?php ### CDN ### ?>
     <?php /* <script type="text/javascript" src="https://mini.uwa.agency/js/mini.js"></script> */ ?>
-    <link type="text/javascript" href="https://cdn.jsdelivr.net/gh/giacomorizzotti/mini/js/mini.js">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/giacomorizzotti/mini/js/mini.js"></script>
     <?php ### LOCAL ### ?>
     <?php /* <script type="text/javascript" src="js/mini.js"></script> */ ?>
 
