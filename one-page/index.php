@@ -30,7 +30,8 @@
     <link rel="apple-touch-icon" href="favicon.ico">
 
     <?php ### CDN ### ?>
-    <link rel="stylesheet" type="text/css" href="https://mini.uwa.agency/css/mini.min.css">
+    <?php /* <link rel="stylesheet" type="text/css" href="https://mini.uwa.agency/css/mini.min.css"> */ ?>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/giacomorizzotti/mini/css/mini.min.css">
     <?php ### LOCAL ### ?>
     <?php /* <link rel="stylesheet" type="text/css" href="css/mini.min.css"> */ ?>
 
@@ -79,18 +80,13 @@
     <div id="top"></div>
     <a href="#top"><div class="top-link"><p class=""><i class="iconoir-dot-arrow-up"></i></p></div></a>
 
-    <header id="header" class="header fixed">
+    <header id="header" class="header fixed px-1">
         <div class="container">
-            <div class="boxes justify-content-between">
+            <div class="boxes align-items-center justify-content-between">
                 <div class="box brand">
                     <a href="#top" class="">
                         <img src="https://mini.uwa.agency/img/brand/mini_emblem.svg" class="logo emblem me-1" alt="emblem"/>
                     </a>
-                    <!--
-                    <a href="#top" class="NOxlDown">
-                        <img src="https://mini.uwa.agency/img/brand/mini_logotype.svg" class="logo logotype" alt="logotype"/>
-                    </a>
-                    -->
                     <a href="#top" class=""><h3 class="site-title mini-title">mini</h3></a>
                 </div>
                 <div class="box menus">
@@ -157,7 +153,8 @@
     </div>
 
     <?php ### CDN ### ?>
-    <script type="text/javascript" src="https://mini.uwa.agency/js/mini.js"></script>
+    <?php /* <script type="text/javascript" src="https://mini.uwa.agency/js/mini.js"></script> */ ?>
+    <link type="text/javascript" href="https://cdn.jsdelivr.net/gh/giacomorizzotti/mini/js/mini.js">
     <?php ### LOCAL ### ?>
     <?php /* <script type="text/javascript" src="js/mini.js"></script> */ ?>
 
